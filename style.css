@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    background: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 20px;
+
+}
+p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+/* --------
+      header
+  -----------*/
+  .header{
+    background: rgba(255, 144, 14, 0.1);
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+  }
+  nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+  }
+  nav ul li{
+    font-weight: 500;
+    font-size: 18px;
+  }
+/* ========
+    Banner style
+    ======== */
+
+    .banner{
+        text-align: center;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 64px;
+        margin-bottom: 25px;
+    }
+    .banner-paragraph{
+        margin-bottom: 20px;
+    }
+    .banner img{
+        margin-top: 56px;
+        width: 70%;
+        /* width: 900px; */
+        height: auto;
+        margin-bottom: 41px;
+    }
+
+    /* =========
+         Quick list
+         =========== */
+    .quick-list{
+        margin: 85px 160px 130px 250px;
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }     
+    .picture{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }   
+    .quick-list .picture img{
+        /* width: 240px; */
+        height: 240px;
+    }  
+
+    .documents-title{
+        font-weight: 600;
+        font-size: 35px;
+        margin-bottom: 24px;
+    }
+    .documents p{
+        /* font-weight: 400;
+        font-size: 12px;
+        color: #727272; */
+        margin-bottom: 32px;
+    }
+
+
+    /* -------
+        Container style
+            ------------ */
+.container{
+    display: flex;
+    margin: 0 170px;
+}
+.just-color{
+    background-color: #FF900E;
+    width: 5px;
+    height: 120px;
+}
+
+.container-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+.container article img{
+    width: 500px;
+    height: 650px;
+}
+/* .container article p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+} */
+.documents2{
+    /* background-color: #FF900E; */
+    padding: 50px 30px 0px 30px;
+}
+.documents2 h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/* -------
+    10+Year  style
+    ----------*/
+.year{
+    text-align: center;
+    position:relative;
+    bottom: 40px;
+    left: 50px;
+
+}
+
+.year .btn-year{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 40px;
+    border: 0;
+    background: #FF900E;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+/*---------------
+         some fact style
+    --------------------- */
+    .some-fact{
+        margin-top: 130px;
+        width: 500px;
+        margin-left: 200px;
+    }
+    .some-fact h2{
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 24px;
+
+    }
+ 
+
+    /* -----
+        Container-2 
+           --------*/
+  .container-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 200px;
+
+  }
+  .box{
+    padding: 45px 35px;
+    border: 2px solid #FF900E;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .box:hover{
+    background-color: #FF900E;
+    color: white;
+  }
+
+
+
+  /* --------
+          Our Sponspors
+             ------------- */
+
+.sponspors-title{
+    margin-left: 180px;
+    margin-right: 800px;
+}
+.sponspors-title h2{
+    margin-bottom: 24px;
+} 
+
+.sponspors-logo{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 250px;
+}
+
+.logo-img{
+    text-align: center;
+    padding: 10px;
+}
+.logo-img img{
+    width: 50%;
+}
+
+
+
+/* -----
+    footer style
+      ------- */
+footer{
+    text-align: center;
+    background-color: #FF900E;
+    margin: 130px 240px;
+}  
+footer p{
+    padding: 39px 200px;
+    background: #FFF4E7;
+}    
+
+/* ---------
+      Goal style
+      --------*/
+.goal{
+    margin-left: 200px;
+
+}
+.goal-article{
+    display: flex;
+    justify-content: space-around;
+}
+.goal-article div{
+    text-align: center;
+    border: 1px solid;
+}
+.goal-article img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+    /* ----------
+        Responsive Mobile
+          --------------- */
+          @media screen and (max-width:576px) {
+            nav,
+            nav ul,
+            .quick-list{
+                flex-direction: column;
+                /* text-align: center; */
+            }
+            .banner-title{
+                font-size: 55px;
+            }
+            .picture{
+                grid-template-columns: repeat(1,1fr);
+            }
+          }
