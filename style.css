@@ -104,8 +104,11 @@ p{
 }
 .just-color{
     background-color: #FF900E;
-    width: 5px;
-    height: 120px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 10px;
+    height: 110px;
 }
 
 .container-title{
@@ -236,19 +239,38 @@ footer p{
       Goal style
       --------*/
 .goal{
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 0px;
 
+}
+.goal-title{
+    margin-left: 180px;
+}
+.goal-title h2{
+    margin-bottom: 16px;
 }
 .goal-article{
     display: flex;
     justify-content: space-around;
+    margin: 80px 200px;
 }
 .goal-article div{
+    background-color: #b1adad;
     text-align: center;
-    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    /* border: 3px solid; */
+}
+.goal-article div:hover{
+    background-color: #FF900E;
+    color: white;
+}
+.goal-article h2{
+    font-weight: 700;
+    font-size: 45px;
 }
 .goal-article img{
-    width: 200px;
+    width: 220px;
     height: 200px;
 }
 
