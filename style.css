@@ -22,75 +22,71 @@ p{
 /* --------
       header
   -----------*/
-  .header{
+.header{
     background: rgba(255, 144, 14, 0.1);
-  }
-  nav{
+       }
+nav{
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
-  }
-  nav ul{
+   }
+nav ul{
     display: flex;
     gap: 40px;
     list-style: none;
     
-  }
-  nav ul li{
+      }
+nav ul li{
     font-weight: 500;
     font-size: 18px;
-  }
+      }
+
 /* ========
     Banner style
     ======== */
 
-    .banner{
+.banner{
         text-align: center;
-    }
-    .banner-title{
+       }
+.banner-title{
         font-weight: 700;
         font-size: 64px;
         margin-bottom: 25px;
-    }
-    .banner-paragraph{
+             }
+.banner-paragraph{
         margin-bottom: 20px;
-    }
-    .banner img{
+                 }
+.banner img{
         margin-top: 56px;
         width: 70%;
-        /* width: 900px; */
         height: auto;
         margin-bottom: 41px;
-    }
+          }
 
     /* =========
          Quick list
          =========== */
-    .quick-list{
+.quick-list{
         margin: 85px 160px 130px 250px;
         display: flex;
         align-items: center;
         gap: 70px;
-    }     
-    .picture{
+           }     
+.picture{
         display: grid;
         gap: 20px;
         grid-template-columns: repeat(2,1fr);
-    }   
-    .quick-list .picture img{
-        /* width: 240px; */
+        }   
+.quick-list .picture img{
         height: 240px;
-    }  
+                        } 
 
-    .documents-title{
+.documents-title{
         font-weight: 600;
         font-size: 35px;
         margin-bottom: 24px;
     }
-    .documents p{
-        /* font-weight: 400;
-        font-size: 12px;
-        color: #727272; */
+.documents p{
         margin-bottom: 32px;
     }
 
@@ -106,8 +102,6 @@ p{
 .just-color{
     background-color: #FF900E;
     margin-top: 6px;
-    /* margin-bottom: 20px;
-    margin-right: 20px;  */
     position: relative;
     left: 40px;
     width: 10px;
@@ -124,7 +118,6 @@ p{
 }
 
 .documents2{
-    /* background-color: #FF900E; */
     box-shadow: 1px 1px 10px 1px #727272;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -161,10 +154,10 @@ p{
 /*---------------
          some fact style
     --------------------- */
-    .some-fact{
+.some-fact{
         margin-left: 200px;
     }
-    .some-fact h2{
+.some-fact h2{
         font-weight: 600;
         font-size: 20px;
         margin-bottom: 24px;
@@ -175,19 +168,19 @@ p{
     /* -----
         Container-2 
            --------*/
-  .container-2{
+.container-2{
     display: flex;
     justify-content: space-around;
     margin: 90px 200px;
 
   }
-  .box{
+.box{
     padding: 45px 35px;
     border: 2px solid #FF900E;
     text-align: center;
     border-radius: 5px;
   }
-  .box:hover{
+.box:hover{
     background-color: #FF900E;
     color: white;
   }
@@ -267,16 +260,8 @@ p{
 /* -----
     footer style
       ------- */
-    /* footer{
-        text-align: center;
-        background-color: #FF900E;
-        margin: 130px 240px;
-    }  
-    footer p{
-        padding: 39px 200px;
-        background: #FFF4E7;
-    }  */
-    footer{
+    
+footer{
         background-color: #FFF4E7;
         border-radius: 8px;
         text-align: center;
@@ -291,9 +276,9 @@ p{
 
 
 
-    /* ----------
-        Responsive Mobile
-          --------------- */
+                                   /* ----------
+                                  Responsive Mobile
+                                   --------------- */
           @media screen and (max-width:576px) {
             nav,
             nav ul,
@@ -304,7 +289,9 @@ p{
             .goal-article {
                 flex-direction: column;
                 margin: 0;
-                /* text-align: center; */
+            }
+            nav {
+                padding: 30px 10px;
             }
             .quick-list{
                 margin: 0;
@@ -326,8 +313,8 @@ p{
             }
             .year{
                 bottom: 0;
-                left: 2;
-                right: 20px;
+                left: 0;
+                right: 0px;
             }
             .container-2{
                 margin: 0px 39px;
@@ -345,6 +332,9 @@ p{
             .just-color{
                 display: none;
             }
+            .goal-title {
+                margin-left: 10px;
+            }
             footer{
                 margin-top: 20px;
                 width: 100%;
@@ -355,9 +345,4 @@ p{
                 
             }
 
-          }
-
-
-          .hide{
-            display: none;
           }
