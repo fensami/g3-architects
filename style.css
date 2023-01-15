@@ -100,13 +100,16 @@ p{
             ------------ */
 .container{
     display: flex;
+    gap: 50px;
     margin: 0 170px;
 }
 .just-color{
     background-color: #FF900E;
     margin-top: 6px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    /* margin-bottom: 20px;
+    margin-right: 20px;  */
+    position: relative;
+    left: 40px;
     width: 10px;
     height: 110px;
 }
@@ -116,8 +119,8 @@ p{
     font-size: 30px;
 }
 .container article img{
-    width: 500px;
-    height: 650px;
+    width: 520px;
+    height: 800px;
 }
 /* .container article p{
     font-weight: 400;
@@ -126,7 +129,10 @@ p{
 } */
 .documents2{
     /* background-color: #FF900E; */
-    padding: 50px 30px 0px 30px;
+    box-shadow: 1px 1px 10px 1px #727272;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px 30px 30px 30px;
 }
 .documents2 h4{
     font-weight: 600;
@@ -140,8 +146,8 @@ p{
 .year{
     text-align: center;
     position:relative;
-    bottom: 40px;
-    left: 50px;
+    bottom: 180px;
+    left: 70px;
 
 }
 
