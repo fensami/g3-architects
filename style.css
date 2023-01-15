@@ -120,13 +120,9 @@ p{
 }
 .container article img{
     width: 520px;
-    height: 800px;
+    height: auto;
 }
-/* .container article p{
-    font-weight: 400;
-    font-size: 12px;
-    color: #727272;
-} */
+
 .documents2{
     /* background-color: #FF900E; */
     box-shadow: 1px 1px 10px 1px #727272;
@@ -166,8 +162,6 @@ p{
          some fact style
     --------------------- */
     .some-fact{
-        margin-top: 130px;
-        width: 500px;
         margin-left: 200px;
     }
     .some-fact h2{
@@ -228,18 +222,7 @@ p{
 
 
 
-/* -----
-    footer style
-      ------- */
-footer{
-    text-align: center;
-    background-color: #FF900E;
-    margin: 130px 240px;
-}  
-footer p{
-    padding: 39px 200px;
-    background: #FFF4E7;
-}    
+   
 
 /* ---------
       Goal style
@@ -281,6 +264,19 @@ footer p{
 }
 
 
+/* -----
+    footer style
+      ------- */
+    footer{
+        text-align: center;
+        background-color: #FF900E;
+        margin: 130px 240px;
+    }  
+    footer p{
+        padding: 39px 200px;
+        background: #FFF4E7;
+    } 
+
 
 
 
@@ -292,14 +288,61 @@ footer p{
           @media screen and (max-width:576px) {
             nav,
             nav ul,
-            .quick-list{
+            .container,
+            .quick-list,
+            .container-2,
+            .sponspors-logo,
+            .goal-article {
                 flex-direction: column;
+                margin: 0;
                 /* text-align: center; */
+            }
+            .quick-list{
+                margin: 0;
+            }
+            .container{
+                margin: 0 0px;
+            }
+            .container article img{
+                width: 100%;
             }
             .banner-title{
                 font-size: 55px;
             }
+            .container article img{
+                margin-left: 0;
+            }
+            .some-fact{
+                margin-left: 0;
+            }
+            .year{
+                bottom: 0;
+                left: 2;
+                right: 20px;
+            }
+            .container-2{
+                margin: 0px 39px;
+                gap: 20px;
+            }
+
+            .sponspors-title {
+                margin-left: 56px;
+                margin-right: 56px;
+            }
+
             .picture{
                 grid-template-columns: repeat(1,1fr);
             }
+            .just-color{
+                display: none;
+            }
+            .footer{
+                margin:50px 0;
+            }
+
+          }
+
+
+          .hide{
+            display: none;
           }
